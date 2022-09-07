@@ -20,8 +20,8 @@ import dlib
 from imutils import face_utils
 
 ### Model ###
-from tensorflow.keras.models import load_model
-from tensorflow.keras import backend as K
+from keras.models import load_model
+from keras import backend as K
 
 def gen():
     """

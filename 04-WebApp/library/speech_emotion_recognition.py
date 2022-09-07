@@ -11,11 +11,11 @@ from scipy.stats import zscore
 
 ## Time Distributed CNN ##
 import tensorflow as tf
-from tensorflow.keras import backend as K
-from tensorflow.keras.models import Model
-from tensorflow.keras.layers import Input, Dense, Dropout, Activation, TimeDistributed
-from tensorflow.keras.layers import Conv2D, MaxPooling2D, BatchNormalization, Flatten
-from tensorflow.keras.layers import LSTM
+from keras import backend as K
+from keras.models import Model
+from keras.layers import Input, Dense, Dropout, Activation, TimeDistributed
+from keras.layers import Conv2D, MaxPooling2D, BatchNormalization, Flatten
+from keras.layers import LSTM
 
 
 '''
